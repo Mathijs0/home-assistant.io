@@ -61,6 +61,10 @@ The next steps will require you to have Home Assistant running.
 
 After you have it running complete the Google authentication that pops up. It will give you a URL and a code to enter. This will grant your Home Assistant service access to all the Google Calendars that the account you authenticate with can read. This is a Read-Only view of these calendars.
 
+<p class='note'>
+  If you want to reset the google authentication remove the ‘.google.token’ file in the configuration folder.
+</p>
+
 ## {% linkable_title Calendar Configuration %}
 
 Editing the `google_calendars.yaml` file.
